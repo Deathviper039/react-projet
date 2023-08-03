@@ -1,6 +1,6 @@
 
 import './App.css';
-import Navbar from "./components/Navbar"
+
 import About from './routes/About';
 import Home from './routes/Home';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
@@ -17,7 +17,7 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
-      <Navbar/>
+      
       </Router>
       
     </div>

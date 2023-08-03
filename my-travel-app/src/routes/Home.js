@@ -1,7 +1,22 @@
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import HomeImg from "../assets/12.jpg";
+import Destination from "../components/Destination";
+
 function Home(){
     return(
         <>
-        <h1>This is Home</h1>
+        <Navbar/>
+        <Hero
+        cName="hero"
+        heroImg={HomeImg}
+        title="Your Journey Your Story"
+        text="Choose Your Favourite Destination."
+        btnText="Travel Plan"
+        url="/"
+        btnClass="show"
+        />
+        <Destination/>
         </>
     )
 
