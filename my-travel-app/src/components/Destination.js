@@ -3,18 +3,18 @@ import Lake2 from "../assets/10.jpg";
 import Mountain1 from "../assets/9.jpg";
 import Mountain2 from "../assets/4.jpg";
 import DestinationData from "./DestinationData";
-import "./DestinationStyles.css"
+import "./DestinationStyles.css";
 
-const Destination = () =>{
-    return(
-        <div className="destination">
-            <h1>Popular Destinations</h1>
-            <p>Tours give you the opportunity to see alot, within a time frame.</p>
+const Destination = () => {
+  return (
+    <div className="destination">
+      <h1>Popular Destinations</h1>
+      <p>Tours give you the opportunity to see alot, within a time frame.</p>
 
-            <DestinationData 
-            className="first-des"
-            heading="Dal Lake, Srinagar"
-            text="Reckoned to be the pride of Kashmir 
+      <DestinationData
+        className="first-des"
+        heading="Dal Lake, Srinagar"
+        text="Reckoned to be the pride of Kashmir 
             tourism, Dal Lake is the most popular 
             attraction in Srinagar. Enclosed by 
             splendid Pir Panjal mountains and 
@@ -29,13 +29,13 @@ const Destination = () =>{
             option in Srinagar to the tourists. 
             In addition to this, the floating vegetable and 
             flower market is a major place to see."
-            img1={Lake1}
-            img2={Lake2}
-            />
-            <DestinationData 
-            className="first-des-reverse"
-            heading="Ladakh, Ladakh"
-            text="Arid mountains, dramatically crowned rocky outcrops, picturesque gompas, 
+        img1={Lake1}
+        img2={Lake2}
+      />
+      <DestinationData
+        className="first-des-reverse"
+        heading="Ladakh, Ladakh"
+        text="Arid mountains, dramatically crowned rocky outcrops, picturesque gompas, 
             meditational mani walls and multi hued flags 
             are few of the many sites that exemplify the beauty 
             of Ladakh. The well balanced traditional society of 
@@ -50,11 +50,11 @@ const Destination = () =>{
             2750 - 7672 meters above sea level, Ladakh is 
             indeed blessed with incredible topography that comprises 
             of hilly terrains, high altitude peaks and the lush green grasslands."
-            img1={Mountain1}
-            img2={Mountain2}
-            />
-        </div>
-    )
-}
+        img1={Mountain1}
+        img2={Mountain2}
+      />
+    </div>
+  );
+};
 
-export default Destination
+export default Destination;

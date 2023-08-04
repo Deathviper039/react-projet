@@ -5,11 +5,11 @@ import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
 
-function Home(){
-    return(
-        <>
-        <Navbar/>
-        <Hero
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero
         cName="hero"
         heroImg={HomeImg}
         title="Your Journey Your Story"
@@ -17,13 +17,12 @@ function Home(){
         btnText="Travel Plan"
         url="/"
         btnClass="show"
-        />
-        <Destination/>
-        <Trip/>
-        <Footer/>
-        </>
-    )
-
+      />
+      <Destination />
+      <Trip />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
